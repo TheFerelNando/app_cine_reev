@@ -1,0 +1,38 @@
+name: app_cine_reev
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.9.2"  # new
+
+flutter_icons:  # new
+  android: true  # new
+  ios: true  # new
+  image_path: "assets/whitelogo.png"  # new
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/blacklogo.ico  # updated
+    - assets/whitelogo.png
+    - assets/libre.png
+    - assets/ocupado.png
+    - assets/occupied.png
+    - assets/homescreen.png
+    - assets/seats_background.png
+    - assets/free.png
