@@ -89,10 +89,10 @@ class SeatSelectionScreen extends StatelessWidget {
                       top: 0,
                       bottom: 0,
                       child: Container(
-                        width: 5,
+                        width: 12,
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
-                            colors: [Colors.red, Colors.orange], // Change these colors to customize your gradient
+                            colors: [Color.fromARGB(255, 255, 255, 255), Color.fromARGB(255, 139, 132, 121)], // Change these colors to customize your gradient
                             begin: Alignment.topCenter,
                             end: Alignment.bottomCenter,
                           ),
@@ -105,10 +105,10 @@ class SeatSelectionScreen extends StatelessWidget {
                       top: 0,
                       bottom: 0,
                       child: Container(
-                        width: 5,
+                        width: 12,
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
-                            colors: [Colors.red, Colors.orange], // Change these colors to customize your gradient
+                            colors: [Color.fromARGB(255, 255, 255, 255), Color.fromARGB(255, 139, 132, 121)], // Change these colors to customize your gradient
                             begin: Alignment.topCenter,
                             end: Alignment.bottomCenter,
                           ),
